@@ -1,0 +1,194 @@
+*{
+  :focus-visible{
+    border-color: #db4444 !important;
+    box-shadow: 0 0 0 1px #db4444 !important;
+  }
+}
+body{
+  overflow-x: hidden !important;
+}
+.box:hover .cart-btn{
+visibility: visible;
+}
+.arrow-icon:hover{
+  scale: 1.2;
+}
+.costom-carousel{
+  display: flex !important;
+  justify-content: center !important;
+  width: 340px !important;
+}
+.bg-blur{
+    filter: blur(8px) grayscale(70%);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  filter: blur(150px);
+  -webkit-filter: blur(150px);
+  /* z-index: -9; */
+}
+.costum-active-color{
+border: 2px solid;
+}
+.social-icon:hover{
+color: #db4444 !important;
+}
+.custom-input:hover{
+border-right: transparent !important;
+}
+.custom-input:focus-visible{
+  border-right-color: transparent !important;
+  box-shadow: 0 0 0 1px transparent !important;
+  border-right: transparent !important;
+}
+.custom-input:focus-visible+.send{
+  border-color: #db4444 !important;
+  border-left-color: transparent !important;
+}
+.line{
+  position: absolute;
+  width: 20px;
+  height: 1px;
+  background-color: white;
+  bottom: -5px;
+  left: 0;
+  transition: 0.5s;
+}
+.shop-btn:hover .line{
+  transition: 0.5s;
+  width: 75px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  background-color: #6a6a6a;
+}
+.line{
+  position: absolute;
+  width: 20px;
+  height: 1px;
+  background-color: white;
+  bottom: -5px;
+  left: 0;
+}
+.shop-btn:hover{
+color: #6a6a6a;
+}
+.form input:focus-visible{
+  outline: none !important;
+  box-shadow: none !important;
+}
+.link-auth{
+  border-bottom: 1px solid  #d5d5d5;
+  margin-left: 13px; 
+  padding-bottom: 3px;
+}
+.link-auth:hover{
+  color: #db4444;
+}
+.user-account-active{
+  background: #e53e3e;
+  border-radius: 50%;
+}
+.dropdowm{
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.dropdowm div:hover{
+  background:radial-gradient(#7474742b, #5050505e);
+}
+.dropdowm div svg{
+  color: #fc8181;
+}
+.dropdowm div:hover svg{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  color: #db4444;
+}
+.dropdowm div:hover p{
+  font-weight: 700;
+  color: black;
+  transform: translateX(5px);
+  transition: 0.3s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.show-dropdown{
+  top: 35px !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+.check>:nth-child(2){
+background-color: #db4444 !important;
+border-color: #fc8181 !important;
+}
+.check svg{
+color: white !important;
+}
+.carousel-container{
+  height: 565px;
+}
+.custom-dot-list-style li button{
+  border: none;
+  background: #c3c3c3;
+}
+.custom-dot-list-style .react-multi-carousel-dot--active button{
+  background: #db4444;
+}
+.active-product-color{
+  outline: black solid 1px;
+  border: 1px solid white;
+}
+.active-product-size{
+background: #db4444;
+color: white;
+}
+.active-menu {
+  display: flex !important;
+  left: 0 !important;
+  opacity: 1 !important;
+}
+.active-mid-line {
+  width: 35px !important;
+}
+.links{
+  position: relative;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.links::after{
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 1px;
+  background-color: #595959;
+  bottom: -5px;
+  left: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.links:hover::after{
+  width: 100%;
+}
+.links:hover{
+  color: #db4444;
+}
